@@ -38,3 +38,12 @@ export interface FilterProps {
   fuel?: string;
 }
 
+export  interface CustomFilterProps {
+  title: string;
+  options: OptionProps[];
+}
+
+export interface OptionProps {
+  title: string;
+  value: string;
+}
